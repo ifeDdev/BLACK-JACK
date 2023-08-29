@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK</title>
+    <link href="blackjack.css" rel="stylesheet">
+</head>
+<body >
+    <div class="main">
+        <div id="header">
+            <h1>BLACKJACK GAME</h1>
+            <img src="./images/card-icon.png" alt="">
+        </div>
+
+            <p>The aim of this game  is to draw cards totalling  to 21 </p>
+                  
+            <button id="start-btn"  class="start">START GAME</button>
+        
+    </div>
+    <div class="info-box">
+
+        <div class="div">
+            <h1>BLACKJACK</h1>
+
+             <h3>Want to play a round?</h3>
+
+             <h3 id="cards-el">Cards:</h3>
+
+             <h3 id="sum-el">Sum:</h3>
+
+             <p id="message"><i></i></p>
+
+             <button onclick="startGame()" class="start-game">START</button>
+
+             <button class="new-card" onclick="newCard()">NEW CARD</button>
+
+             <p id="player-el"></p>
+
+             <br> <br>
+            <button class="exit">Exit Game</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
